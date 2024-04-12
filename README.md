@@ -1,4 +1,4 @@
-Desafio semanal no servidor <b>Spacelaxy</b> 02/13/2024
+Desafio semanal no servidor <b>Spacelaxy</b> 02/13/2024</br>
 https://discord.gg/e8bj7vG4
 
 ## Desafio
