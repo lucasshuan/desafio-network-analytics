@@ -1,0 +1,16 @@
+services:
+  network_analytics:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: nadb
+      SSL_MODE: disable
+    ports:
+      - 5432:5432
+    volumes:
+      - na_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  na_postgres_data:
