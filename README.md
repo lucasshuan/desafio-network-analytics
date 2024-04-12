@@ -33,7 +33,11 @@ A API foi feita em 2 horas e o resultado final acabou ficando ultra simplificado
 
 ## Rotas
 
-`GET  /currency` -> Busca todas as moedas</br>
-`POST /currency` -> Cria uma nova moeda `{ name, value, fluctuationRate }`</br>
-`GET  /currency/:moeda/logs` -> Busca todo o histórico de alterações das moedas</br>
-`GET  /log` -> Busca histórico de flutuações em todas as moedas
+`GET  /currency`</br>
+Busca todas as moedas</br></br>
+`POST /currency`</br>
+Cria uma nova moeda `{ name, value, fluctuationRate }`</br></br>
+`GET  /currency/:moeda/logs`</br>
+Busca todo o histórico de alterações das moedas</br></br>
+`GET  /log`</br>
+Busca histórico de flutuações em todas as moedas</br></br>
