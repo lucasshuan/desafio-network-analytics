@@ -10,6 +10,7 @@ app.use(cors({
     origin: "*"
 }))
 
+app.use(express.json({ limit: "250mb" }));
 app.use(router)
 
 app.listen(port, () => {

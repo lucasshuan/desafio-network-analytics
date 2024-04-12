@@ -19,7 +19,7 @@ export async function getCurrencies() {
 
 export async function createCurrency(name: string, value: number, fluctuationRate: number) {
     console.log(`Criando moeda: ${name}`)
-    await prisma.currency.create({
+    return await prisma.currency.create({
         data: {
             name,
             value,

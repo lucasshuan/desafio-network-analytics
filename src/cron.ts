@@ -2,6 +2,7 @@ import { CronJob } from "cron";
 import { getCurrencies, updateCurrencyValue } from "./service/currency_service";
 
 async function updateAllCurrencyValues() {
+    console.log(`Atualizando todas as moedas`)
     const currencies = await getCurrencies()
     for (const currency of currencies) {
         const minValue = currency.value - (currency.value * currency.fluctuationRate);

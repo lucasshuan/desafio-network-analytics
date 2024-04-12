@@ -27,10 +27,10 @@ router.post("/currency", async (req, res) => {
     }
 })
 
-router.get("/currency/:currency/logs", async (req, res) => {
-    const { currency } = req.params
+router.get("/currency/:id/logs", async (req, res) => {
+    const { id } = req.params
     try {
-        const logs = await getCurrencyLogs(parseInt(currency))
+        const logs = await getCurrencyLogs(parseInt(id))
         res.json(logs)
     }
     catch (error) {
@@ -39,7 +39,7 @@ router.get("/currency/:currency/logs", async (req, res) => {
     }
 })
 
-router.get("/logs", async (_, res) => {
+router.get("/log", async (_, res) => {
     try {
         const logs = await getLogs()
         res.json(logs)
