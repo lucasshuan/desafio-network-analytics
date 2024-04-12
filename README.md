@@ -7,7 +7,7 @@ https://discord.gg/e8bj7vG4
 
 ## Observação
 
-A API foi feita em 2 horas e o resultado final acabou ficando ultra simplificado. Moedas mudam de valor a cada 5 minutos e as alterações são jogadas em uma tabela, como pedido.
+A API foi feita em menos de 2 horas e o resultado final acabou ficando ultra simplificado. Moedas mudam de valor a cada 5 minutos e as alterações são jogadas em uma tabela, como pedido.
 
 ## Como testar
 
